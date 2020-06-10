@@ -123,7 +123,7 @@ namespace instaShoter
             }
 
         }
-        public static DateTime unixToNow(double unixSeconds)
+        private DateTime unixToNow(double unixSeconds)
         {
 
             DateTime dtime = new DateTime(1970, 1, 1, 0, 0, 0, 0, DateTimeKind.Utc);
